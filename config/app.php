@@ -145,6 +145,7 @@ return [
 		'salempro\Providers\EventServiceProvider',
 		'salempro\Providers\RouteServiceProvider',
 
+        'Collective\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -192,6 +193,11 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+        /* custom */
+
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
 
 	],
 
